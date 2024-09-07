@@ -1,10 +1,15 @@
-import React, {useState , useEffect} from "react";
+import React from "react";
 import "./Body.css";
 
-function Body() {
+function Body({clicked}) {
     return (
         <>
-            <main>
+            <main style={
+                {
+                    backgroundColor: clicked ? "#282D35" : "white",
+                    color: clicked ? "white" : "#282D35"
+                }
+            }>
                 <h1>Fun facts about React</h1>
                 <ul>
                     <li>Was first released in 2013</li>
