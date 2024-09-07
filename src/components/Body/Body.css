@@ -1,0 +1,22 @@
+main {
+    padding: 30px 20px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+main ul {
+    list-style-position: inside;
+    width: 90%;
+    margin-inline: auto;
+}
+
+main ul li::marker {
+    color: #61DAFB;
+    font-size: 20px;
+}
+
+main ul li {
+    line-height: 35px;
+}
